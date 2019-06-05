@@ -6,28 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="221dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="69dp"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="115dp"
-        tools:srcCompat="@drawable/uy" />
-
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="288dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="228dp"
         android:text="Texto aleatório"
         tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="273dp" />
+        tools:layout_editor_absoluteY="273dp"
+        tools:text="Pernambuco é uma das 27 unidades federativas do Brasil. Está localizado no centro-leste da região Nordeste e tem como limites os estados da Paraíba, do Ceará, de Alagoas, da Bahia e do Piauí, além de ser banhado pelo oceano Atlântico." />
 
     <EditText
         android:id="@+id/txtArea"
@@ -41,21 +31,23 @@
         android:inputType="textPersonName"
         android:text="Área"
         tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="544dp" />
+        tools:layout_editor_absoluteY="544dp"
+        tools:text="98.312 km²" />
 
     <EditText
         android:id="@+id/txtPopulacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="-155dp"
-        android:layout_marginBottom="58dp"
+        android:layout_marginStart="-278dp"
+        android:layout_marginBottom="79dp"
         android:layout_toEndOf="@+id/textView"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="População"
         tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="604dp" />
+        tools:layout_editor_absoluteY="604dp"
+        tools:text="9,278 milhões" />
 
     <TextView
         android:id="@+id/textView2"
@@ -63,9 +55,20 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/textView"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="353dp"
-        android:layout_marginEnd="24dp"
-        android:text="TextView"
+        android:layout_marginTop="354dp"
+        android:layout_marginEnd="130dp"
+        android:text="Pernambuco"
         tools:layout_editor_absoluteX="176dp"
         tools:layout_editor_absoluteY="376dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="358dp"
+        android:layout_height="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="26dp"
+        app:srcCompat="@drawable/pernambuco" />
+
 </RelativeLayout>
